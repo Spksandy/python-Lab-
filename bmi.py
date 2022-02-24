@@ -1,4 +1,5 @@
-a=int(input("Enter weight :"))
-b=int(input("Enter height:"))
+a=int(input("Enter weight in kg :"))
+b=int(input("Enter height in metre:"))
 bmi=a/(b*b)
+print(Your BMI:,end='')
 print(bmi)
