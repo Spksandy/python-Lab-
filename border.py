@@ -11,3 +11,4 @@ for i in range(3):
 			print(ls[i][j],end='')
 		else:
 			print(' ',end='')
+	print()
