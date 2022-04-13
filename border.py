@@ -1,3 +1,4 @@
+import time
 ls=[]
 for i in range(3):
 	ls1=[]
@@ -11,4 +12,5 @@ for i in range(3):
 			print(ls[i][j],end='')
 		else:
 			print(' ',end='')
+		time.sleep(0.4)
 	print()
