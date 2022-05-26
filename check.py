@@ -1,0 +1,6 @@
+f=open("abc.txt",'r+')
+f1=open("spk.txt",'a+')
+str=f.read()
+f1.write(str)
+f.close()
+f1.close()
